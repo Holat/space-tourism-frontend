@@ -6,7 +6,7 @@ import { Destination, Crew, Technology } from "./pages";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/space-tourism-frontend">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
